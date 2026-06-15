@@ -1,0 +1,106 @@
+/* Reset Default Browser Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+/* Navigation Bar */
+.navbar {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.navbar li a:hover {
+    background-color: #111;
+}
+
+.navbar .active {
+    background-color: #04AA6D;
+}
+
+/* Header */
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+/* Content */
+.content {
+    width: 100%;
+    padding: 20px;
+}
+
+.content h2 {
+    margin-bottom: 15px;
+}
+
+.content p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+/* Vertical Layout */
+.image-row {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+}
+
+/* Each Section */
+.column {
+    width: 100%;
+    background-color: #f5f5f5;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.column img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.column h3 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.column p {
+    margin-bottom: 0;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
