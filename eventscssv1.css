@@ -8,7 +8,7 @@
 /* Body */
 body {
     font-family: Arial, sans-serif;
-    background-color: #ffff;
+    background-color: #add8e6;
 }
 
 /* Navigation Bar */
@@ -59,7 +59,7 @@ body {
     right: 0;
     bottom: 0;
 
-    background: rgba(0, 0, 0, 0.685);
+    background: rgba(0, 0, 0, 0.5);
 
     display: flex;
     flex-direction: column;

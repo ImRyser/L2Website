@@ -8,7 +8,7 @@
 /* Body */
 body {
     font-family: Arial, sans-serif;
-    background-color: #ffff;
+    background-color: #add8e6;
 }
 
 /* Navigation Bar */
@@ -73,7 +73,7 @@ header {
 /* Each Section */
 .column {
     width: 100%;
-    background-color: #f5f5f5;
+    background-color: #979292;
     border: 2px solid #ccc;
     border-radius: 10px;
     padding: 20px;

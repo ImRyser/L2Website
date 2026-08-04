@@ -8,7 +8,7 @@
 /* Body Styling */
 body {
     font-family: Arial, sans-serif;
-    background-color: white;
+    background-color: #4c8ce4;
 }
 
 /* Hero Image */
@@ -33,7 +33,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: rgba(239, 241, 241, 0.918);
+    color: rgba(241, 239, 239, 0.918);
 }
 
 .hero-text h1 {
@@ -53,7 +53,7 @@ body {
 
 .navbar li a {
     display: block;
-    color: rgb(255, 255, 255);
+    color: white;
     text-align: center;
     padding: 14px 20px;
     text-decoration: none;
@@ -65,7 +65,7 @@ body {
 }
 
 .navbar .active {
-    background-color: #4faa75;
+    background-color: #04AA6D;
 }
 
 /* Split Layout */
@@ -79,26 +79,26 @@ body {
 .left-section {
     width: 50%;
     padding: 20px;
-    border-right: 2px solid #ffff;
-    background-color: #ffff;
+    border-right: 2px solid #add8e6;
+    background-color: #add8e6;
 }
 
 /* Right Side */
 .right-section {
     width: 50%;
     padding: 20px;
-    background-color: #ffff;
+    background-color: #add8e6;
 }
 
 /* Header Bars */
 .section-header {
     background-color: #333;
-    color: white;
+    color: black;
     text-align: center;
     font-size: 22px;
     font-weight: bold;
     padding: 15px;
-    border-bottom: 4px solid #52af79;
+    border-bottom: 4px solid #04AA6D;
     border-radius: 5px 5px 0 0;
     margin-bottom: 15px;
 }

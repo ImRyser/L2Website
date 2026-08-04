@@ -8,7 +8,7 @@
 /* Body */
 body {
     font-family: Arial, sans-serif;
-    background-color: #ffff;
+    background-color: #add8e6;
 }
 
 /* Navigation Bar */
@@ -72,6 +72,9 @@ header {
 
 /* Each Section */
 .column {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
     width: 100%;
     background-color: #f5f5f5;
     border: 2px solid #ccc;
@@ -80,12 +83,11 @@ header {
 }
 
 .column img {
-    width: 800px;
-    height: 350px;
-    object-fit: cover;
+    width: 500px;
+    height: 250px;
+    object-fit: contain;
     border-radius: 8px;
-    display: block;
-    margin: 0 auto;
+    flex-shrink: 0;
 }
 
 .column h3 {
